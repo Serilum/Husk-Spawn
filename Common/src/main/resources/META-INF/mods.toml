@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Husk%20Spawn"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Husk%20Spawn"
 logoFile="icon.png"
 
 [[mods]]
 modId="huskspawn"
-version="3.4"
+version="3.5"
 displayName="Husk Spawn"
-displayURL="https://curseforge.com/minecraft/mc-mods/husk-spawn"
+displayURL="https://serilum.com/mod/husk-spawn"
 authors="Rick South"
 description='''Adds a chance for husks to spawn naturally everywhere instead of a zombie.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.huskspawn]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.huskspawn]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.19.2]"
     ordering="NONE"
