@@ -1,7 +1,7 @@
-package com.natamus.huskspawn;
+package com.serilum.huskspawn;
 
 import com.natamus.collective.objects.SAMObject;
-import com.natamus.huskspawn.config.ConfigHandler;
+import com.serilum.huskspawn.config.ConfigHandler;
 import net.minecraft.world.entity.EntityType;
 
 public class ModCommon {
