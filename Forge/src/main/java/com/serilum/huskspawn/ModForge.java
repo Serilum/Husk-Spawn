@@ -1,9 +1,9 @@
-package com.natamus.huskspawn;
+package com.serilum.huskspawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.huskspawn.forge.config.IntegrateForgeConfig;
-import com.natamus.huskspawn.util.Reference;
+import com.serilum.huskspawn.forge.config.IntegrateForgeConfig;
+import com.serilum.huskspawn.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;

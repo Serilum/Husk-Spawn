@@ -1,7 +1,7 @@
-package com.natamus.huskspawn.config;
+package com.serilum.huskspawn.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.huskspawn.util.Reference;
+import com.serilum.huskspawn.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
