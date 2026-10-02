@@ -1,7 +1,7 @@
-package com.natamus.huskspawn.forge.config;
+package com.serilum.huskspawn.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.huskspawn.util.Reference;
+import com.serilum.huskspawn.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

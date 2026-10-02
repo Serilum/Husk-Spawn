@@ -1,9 +1,9 @@
-package com.natamus.huskspawn;
+package com.serilum.huskspawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.huskspawn.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.huskspawn.util.Reference;
+import com.serilum.huskspawn.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.huskspawn.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
