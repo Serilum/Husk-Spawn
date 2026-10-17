@@ -1,10 +1,13 @@
 package com.serilum.huskspawn;
 
+import com.natamus.collective.globalcallbacks.ConfigCallback;
 import com.natamus.collective.objects.SAMObject;
 import com.serilum.huskspawn.config.ConfigHandler;
+import com.serilum.huskspawn.util.Reference;
 import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
+	private static SAMObject samObject;
 
 	public static void init() {
 		ConfigHandler.initConfig();
@@ -12,6 +15,14 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		new SAMObject(EntityTypes.ZOMBIE, EntityTypes.HUSK, null, ConfigHandler.chanceZombieIsHusk, false, false, false);
+		samObject = new SAMObject(EntityTypes.ZOMBIE, EntityTypes.HUSK, null, ConfigHandler.chanceZombieIsHusk, false, false, false, false, false, Integer.MAX_VALUE);
+
+		ConfigCallback.CONFIG_CHANGED.register((String modid) -> {
+			if (!modid.equals(Reference.MOD_ID)) {
+				return;
+			}
+
+			samObject.changeChance = ConfigHandler.chanceZombieIsHusk;
+		});
 	}
 }
