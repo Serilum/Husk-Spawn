@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "huskspawn",
-  "version": "3.8",
+  "version": "3.9",
 
   "name": "Husk Spawn",
   "description": "Adds a chance for husks to spawn naturally everywhere instead of a zombie.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=8.57"
+    "collective": ">=8.59"
   },
 
   "custom": {
